@@ -1,3 +1,9 @@
+# revision 21214
+# category Package
+# catalog-ctan /info/impatient
+# catalog-date 2009-06-03 15:47:29 +0200
+# catalog-license fdl
+# catalog-version undef
 Name:		texlive-impatient
 Version:	20090603
 Release:	1
@@ -53,6 +59,7 @@ translation.
 %doc %{_texmfdistdir}/doc/plain/impatient/usermacs.tex
 %doc %{_texmfdistdir}/doc/plain/impatient/usingtex.tex
 %doc %{_texmfdistdir}/doc/plain/impatient/xmptext.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ translation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
