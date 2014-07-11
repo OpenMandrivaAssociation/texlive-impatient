@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-impatient
 Version:	20090603
-Release:	7
+Release:	8
 Summary:	Free edition of the book "TeX for the Impatient"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/impatient
