@@ -1,5 +1,5 @@
 Name:		texlive-impatient
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Free edition of the book "TeX for the Impatient"
 Group:		Publishing
