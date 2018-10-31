@@ -1,6 +1,6 @@
 Name:		texlive-impatient
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Free edition of the book "TeX for the Impatient"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/impatient
